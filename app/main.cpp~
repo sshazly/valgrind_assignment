@@ -4,8 +4,8 @@
 int main()
 {
     AnalogSensor lightSensor(5);
-    int sensorOutput = lightSensor.Read();
-    std::cout << "Averaged sensor reading: " << sensorOutput << std::endl;
+    double sensorOutput = lightSensor.Read();
+    std::cout << "Averaged sensor reading: " <<  << std::endl;
     bool terminator=true;
     if( terminator )
     {
